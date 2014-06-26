@@ -15,11 +15,11 @@ gem 'coffee-rails', '~> 4.0.0'
 # gem 'therubyracer',  platforms: :ruby
 
 group :test, :development do
-    gem 'rspec-rails', "2.13.1"
+    gem 'rspec-rails','~> 2.14.0.rc1'
 end
 
 group :test do
-  gem 'capybara', "2.1.0"
+  gem 'capybara', '2.1.0'
   gem 'factory_girl_rails', '~>4.2.1'
 end
 # Use jquery as the JavaScript library
